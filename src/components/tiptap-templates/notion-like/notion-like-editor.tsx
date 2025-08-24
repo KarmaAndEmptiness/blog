@@ -262,8 +262,6 @@ export function EditorProvider(props: EditorProviderProps) {
         <NotionEditorHeader />
         <EditorContentArea />
       </EditorContext.Provider>
-
-      
     </div>
   )
 }

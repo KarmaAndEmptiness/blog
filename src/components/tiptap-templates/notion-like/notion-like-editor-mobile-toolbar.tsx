@@ -41,7 +41,7 @@ import {
   HIGHLIGHT_COLORS,
 } from "@/components/tiptap-ui/color-highlight-button"
 import { useMenuActionVisibility } from "@/components/tiptap-ui/drag-context-menu"
-import { AiAskButton } from "@/components/tiptap-ui/ai-ask-button"
+// import { AiAskButton } from "@/components/tiptap-ui/ai-ask-button"
 import { DuplicateButton } from "@/components/tiptap-ui/duplicate-button"
 import { CopyToClipboardButton } from "@/components/tiptap-ui/copy-to-clipboard-button"
 
@@ -425,13 +425,13 @@ function DropdownMenuActions({ editor }: DropdownMenuActionsProps) {
           </DropdownMenuItem>
         </ButtonGroup>
 
-        <Separator orientation="horizontal" />
+        {/* <Separator orientation="horizontal" />
 
         <ButtonGroup>
           <DropdownMenuItem asChild>
             <AiAskButton text="Ask AI" showShortcut={!isMobile} />
           </DropdownMenuItem>
-        </ButtonGroup>
+        </ButtonGroup> */}
 
         <Separator orientation="horizontal" />
 
